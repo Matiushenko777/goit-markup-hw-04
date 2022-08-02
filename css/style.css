@@ -188,15 +188,6 @@ color: #000000
     flex-wrap: wrap;
     column-gap: 30px;
 }
-.benefits-soc-link {
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .benefits-title {
     margin-bottom: 10px;
     font-weight: 700;
@@ -255,7 +246,7 @@ color: #000000
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     
 }
 .team-soc-link {
@@ -512,8 +503,8 @@ color: #000000
     align-items: center;
     justify-content: center;
 }
-.connect-element {
-    padding-right: 10px;
+.connect-element:not(:last-child) {
+    margin-right: 10px;
 }
 .connect-link {
     width: 44px;
